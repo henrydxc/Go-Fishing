@@ -1,6 +1,7 @@
 # Go-Fishing
 A college assignment project
-* download all java files and run the PlayGame file (without GUI)
+* download all java files and run the PlayGame file (without GUI).
+  
 The PlayGame class represents a deck of cards with a funDeck object of the DeckList class. We'll use numPplayers to represent the number of people playing, and playerScores to keep track of player scores.
 The core method in this class is playNow(), which uses the first do-while loop to determine whether to start the next game after the end of a game. Use a second do-while loop to ask the user for an option number again when they enter a number other than an option in the menu selection screen. Inside the second do-while loop is a third do-while loop (line 56).This loop allows the user to be asked again for the number of players after confirming that they have entered a number outside their range since starting the game. Each of these choices is judged using the switch structure.
 For 2-player games and games with more than 2 players, I used different methods including round, roundMulti, and roundN methods. Because when there are more than two players, when a player gets the card he asks for, the program needs to reconfirm the next player he chooses to ask. This is the main difference between the two approaches.
